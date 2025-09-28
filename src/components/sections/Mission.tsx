@@ -8,10 +8,7 @@ export const Mission = () => {
               Our Vision
             </h3>
             <p className="text-muted-foreground">
-              To become a leading and most respected law firm recognized for its exceptional 
-              legal expertise, unwavering integrity, and profound commitment to client success. 
-              We aim to be the first choice for individuals and businesses seeking sophisticated 
-              and effective legal counsel.
+              At Virtuous Law Partners (VLP), our goal is simple: to be the leading and most respected law firm known for our exceptional legal skills, strong integrity, and deep dedication to our clients' success. We want to be the first choice for anyone – individuals or businesses – looking for smart and effective legal help. We aim to set the standard for excellent legal practice and client happiness.
             </p>
           </div>
           <div>
@@ -19,10 +16,7 @@ export const Mission = () => {
               Our Mission
             </h3>
             <p className="text-muted-foreground">
-              To provide unwavering, client-focused legal representation that upholds the 
-              highest standards of ethics and professionalism. We are committed to delivering 
-              innovative, practical, and effective legal solutions that achieve our clients' 
-              objectives and exceed their expectations.
+              Our mission at VLP is to provide unwavering legal support that always puts you, the client, first. We stick to the highest standards of ethics and professionalism. We're committed to understanding your unique needs so we can deliver innovative, practical, and effective legal solutions. Our goal is to meet your objectives and even go beyond your expectations. We strive to be your trusted partner, giving you the confidence to handle any legal challenge.
             </p>
           </div>
         </div>

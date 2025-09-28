@@ -44,7 +44,7 @@ export const Header = () => {
           {/* Logo */}
           <div className="text-2xl font-serif font-bold text-primary">
             <img 
-              src="https://i.ibb.co/9v0d0j5/Screenshot-2024-05-23-at-10-38-05-AM.png" 
+              src="https://i.ibb.co/Yn9G5nT/logo.png" 
               alt="Virtuous Law Partners Logo" 
               className="h-12 md:h-16"
             />

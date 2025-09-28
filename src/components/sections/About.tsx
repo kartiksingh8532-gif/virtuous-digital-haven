@@ -18,22 +18,22 @@ export const About = () => {
             </h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                At Virtuous Law Partners (VLP), we don't just practice law; we craft solutions. 
-                As a registered law firm, our mission is to deliver exceptional legal services 
-                that empower both businesses and individuals to navigate the complexities of the 
-                legal landscape with confidence.
+                At Virtuous Law Partners (VLP), we go beyond traditional legal practice to craft tailored solutions for businesses and individuals. As a registered law firm, our mission is to empower you to navigate the legal landscape with confidence and clarity.
               </p>
               <p>
-                Our firm is built upon a bedrock of excellence, integrity, and professionalism. 
-                These aren't just words to us; they are the guiding principles that shape every 
-                interaction and inform every strategy. We specialize in providing tailored legal 
-                solutions designed to precisely address your specific needs and objectives.
+                Our foundation rests on excellence, integrity, and professionalism. These core values aren't just abstract ideals; they are the driving force behind every interaction and strategic decision we make. We recognize that every client's situation is unique, which is why we specialize in developing customized legal strategies designed to precisely meet your specific needs and objectives.
               </p>
               <p>
-                What sets VLP apart is our unwavering commitment to understanding your challenges. 
-                Our team of highly skilled advocates are your trusted advisors, dedicated to 
-                achieving the best possible results on your behalf.
+                What truly sets VLP apart is our unwavering commitment to understanding your challenges and aspirations. Our team of highly skilled and experienced advocates isn't just focused on achieving favorable outcomes; we are dedicated to being your trusted advisors. We diligently leverage our deep legal knowledge to provide the highest level of representation and support, always striving for the best possible results on your behalf.
               </p>
+              <div className="mt-6 space-y-2">
+                <p className="font-semibold text-primary">Our Core Values:</p>
+                <ul className="space-y-1 ml-4">
+                  <li><strong>Integrity</strong> – Upholding highest standards of honesty and ethical behavior</li>
+                  <li><strong>Excellence</strong> – Committed to achieving excellence in every aspect</li>
+                  <li><strong>Client-Centric</strong> – Understanding unique challenges and providing personalized solutions</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
