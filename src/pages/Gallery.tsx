@@ -29,7 +29,16 @@ const Gallery = () => {
     "https://i.ibb.co/XfCFSj0D/Whats-App-Image-2025-09-26-at-14-56-31-1.jpg",
     "https://i.ibb.co/prs5RCRf/Whats-App-Image-2025-09-26-at-14-56-31-2.jpg",
     "https://i.ibb.co/DmhzMTS/Whats-App-Image-2025-09-26-at-14-56-31-3.jpg",
-    "https://i.ibb.co/0ypRz3Dt/Whats-App-Image-2025-09-26-at-14-56-31.jpg"
+    "https://i.ibb.co/0ypRz3Dt/Whats-App-Image-2025-09-26-at-14-56-31.jpg",
+    "https://i.ibb.co/1Ys0qhCB/Whats-App-Image-2025-09-25-at-21-20-54.jpg",
+    "https://i.ibb.co/7N2SLTpv/Whats-App-Image-2025-09-25-at-21-20-53.jpg",
+    "https://i.ibb.co/rfTthW9p/Whats-App-Image-2025-09-25-at-21-20-52.jpg",
+    "https://i.ibb.co/zh1wByWq/Whats-App-Image-2025-09-25-at-21-20-51.jpg",
+    "https://i.ibb.co/R4DY5jJL/Whats-App-Image-2025-09-25-at-21-20-49.jpg",
+    "https://i.ibb.co/sp6sKx2L/Whats-App-Image-2025-09-25-at-21-20-46.jpg",
+    "https://i.ibb.co/8gkZwWtL/Whats-App-Image-2025-09-25-at-21-20-42.jpg",
+    "https://i.ibb.co/pvFYRtYR/Whats-App-Image-2025-09-25-at-21-20-45.jpg",
+    "https://i.ibb.co/twt0CZ2z/Whats-App-Image-2025-09-25-at-21-20-43.jpg"
   ];
 
   return (

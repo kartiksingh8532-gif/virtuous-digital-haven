@@ -82,6 +82,12 @@ export const Header = () => {
             >
               Gallery
             </a>
+            <a
+              href="/blog"
+              className="text-muted-foreground hover:text-primary transition-colors duration-300"
+            >
+              Blog
+            </a>
             <Button
               onClick={() => scrollToSection('contact')}
               variant="default"
@@ -133,6 +139,13 @@ export const Header = () => {
               onClick={closeMenu}
             >
               Gallery
+            </a>
+            <a
+              href="/blog"
+              className="block w-full text-left py-2 text-muted-foreground hover:text-primary transition-colors duration-300"
+              onClick={closeMenu}
+            >
+              Blog
             </a>
             <Button
               onClick={() => scrollToSection('contact')}
