@@ -35,8 +35,8 @@ export const Header = () => {
     <header 
       className={`sticky top-0 z-50 transition-all duration-300 ${
         isScrolled 
-          ? 'bg-background/90 backdrop-blur-sm shadow-card' 
-          : 'bg-background/80 backdrop-blur-sm'
+          ? 'bg-white/95 backdrop-blur-sm shadow-card' 
+          : 'bg-white/90 backdrop-blur-sm'
       }`}
     >
       <div className="container mx-auto px-6 py-4">
@@ -54,37 +54,37 @@ export const Header = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <button
               onClick={() => scrollToSection('about')}
-              className="text-muted-foreground hover:text-primary transition-colors duration-300"
+              className="text-brand-black hover:text-primary transition-colors duration-300 font-medium"
             >
               About Us
             </button>
             <button
               onClick={() => scrollToSection('services')}
-              className="text-muted-foreground hover:text-primary transition-colors duration-300"
+              className="text-brand-black hover:text-primary transition-colors duration-300 font-medium"
             >
               Our Services
             </button>
             <button
               onClick={() => scrollToSection('mission')}
-              className="text-muted-foreground hover:text-primary transition-colors duration-300"
+              className="text-brand-black hover:text-primary transition-colors duration-300 font-medium"
             >
               Our Mission
             </button>
             <button
               onClick={() => scrollToSection('team')}
-              className="text-muted-foreground hover:text-primary transition-colors duration-300"
+              className="text-brand-black hover:text-primary transition-colors duration-300 font-medium"
             >
               The Team
             </button>
             <a
               href="/gallery"
-              className="text-muted-foreground hover:text-primary transition-colors duration-300"
+              className="text-brand-black hover:text-primary transition-colors duration-300 font-medium"
             >
               Gallery
             </a>
             <a
               href="/blog"
-              className="text-muted-foreground hover:text-primary transition-colors duration-300"
+              className="text-brand-black hover:text-primary transition-colors duration-300 font-medium"
             >
               Blog
             </a>
@@ -111,38 +111,38 @@ export const Header = () => {
           <div className="md:hidden mt-4 pb-4 space-y-4">
             <button
               onClick={() => scrollToSection('about')}
-              className="block w-full text-left py-2 text-muted-foreground hover:text-primary transition-colors duration-300"
+              className="block w-full text-left py-2 text-brand-black hover:text-primary transition-colors duration-300 font-medium"
             >
               About Us
             </button>
             <button
               onClick={() => scrollToSection('services')}
-              className="block w-full text-left py-2 text-muted-foreground hover:text-primary transition-colors duration-300"
+              className="block w-full text-left py-2 text-brand-black hover:text-primary transition-colors duration-300 font-medium"
             >
               Our Services
             </button>
             <button
               onClick={() => scrollToSection('mission')}
-              className="block w-full text-left py-2 text-muted-foreground hover:text-primary transition-colors duration-300"
+              className="block w-full text-left py-2 text-brand-black hover:text-primary transition-colors duration-300 font-medium"
             >
               Our Mission
             </button>
             <button
               onClick={() => scrollToSection('team')}
-              className="block w-full text-left py-2 text-muted-foreground hover:text-primary transition-colors duration-300"
+              className="block w-full text-left py-2 text-brand-black hover:text-primary transition-colors duration-300 font-medium"
             >
               The Team
             </button>
             <a
               href="/gallery"
-              className="block w-full text-left py-2 text-muted-foreground hover:text-primary transition-colors duration-300"
+              className="block w-full text-left py-2 text-brand-black hover:text-primary transition-colors duration-300 font-medium"
               onClick={closeMenu}
             >
               Gallery
             </a>
             <a
               href="/blog"
-              className="block w-full text-left py-2 text-muted-foreground hover:text-primary transition-colors duration-300"
+              className="block w-full text-left py-2 text-brand-black hover:text-primary transition-colors duration-300 font-medium"
               onClick={closeMenu}
             >
               Blog
