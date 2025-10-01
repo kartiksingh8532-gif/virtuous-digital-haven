@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
-const Blog = () => {
+const UmarKhalidCase = () => {
   const navigate = useNavigate();
 
   return (
@@ -14,11 +14,11 @@ const Blog = () => {
         <article className="container mx-auto px-6 max-w-4xl">
           <Button
             variant="ghost"
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/blog")}
             className="mb-8 hover:bg-accent"
           >
             <ArrowLeft className="mr-2 h-4 w-4" />
-            Back to Home
+            Back to Blog
           </Button>
 
           <header className="mb-12 text-center">
@@ -194,4 +194,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default UmarKhalidCase;
