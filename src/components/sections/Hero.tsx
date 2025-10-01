@@ -21,7 +21,7 @@ export const Hero = () => {
         <img 
           src={logo} 
           alt="Virtuous Law Partners Logo" 
-          className="w-32 h-32 md:w-40 md:h-40 mx-auto mb-8 object-contain"
+          className="w-32 h-32 md:w-40 md:h-40 mx-auto mb-8 object-cover rounded-full"
         />
         <h1 className="text-5xl md:text-7xl font-serif font-bold text-primary mb-6 leading-tight">
           Crafting Solutions, Delivering Justice.
