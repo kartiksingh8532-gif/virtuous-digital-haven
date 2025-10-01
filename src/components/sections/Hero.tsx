@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-law-firm.jpg";
+import logo from "@/assets/logo.png";
 
 export const Hero = () => {
   const scrollToContact = () => {
@@ -17,6 +18,11 @@ export const Hero = () => {
     >
       <div className="absolute inset-0 bg-black/60" />
       <div className="text-center z-10 px-4 max-w-6xl mx-auto">
+        <img 
+          src={logo} 
+          alt="Virtuous Law Partners Logo" 
+          className="w-32 h-32 md:w-40 md:h-40 mx-auto mb-8 object-contain"
+        />
         <h1 className="text-5xl md:text-7xl font-serif font-bold text-primary mb-6 leading-tight">
           Crafting Solutions, Delivering Justice.
         </h1>
